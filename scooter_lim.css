@@ -1,0 +1,88 @@
+/* SELETTORE {
+proprietà: valore;
+proprietà: valore;
+}
+*/
+body {
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subscreen {
+  background-color: rgb(15,15,15,0.7);
+  border-radius: 2%;
+  padding: 20px 80px;
+  margin: auto;
+  width: 730px;
+  margin-top: 25px;
+}
+
+/* logo */
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 200px;
+}
+
+
+/* titolo */
+
+header > h1 {
+  color: rgb(120, 230, 80);
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/* booking button */
+
+nav {
+  background-color: rgb(120, 230, 80);
+  padding:15px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+/* lista monopattini */
+
+section {
+  color: white;
+  display: inline-block;
+}
+
+section > h2 {
+  margin: 5px;
+  display: inline-block;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section > p {
+  margin: 5px;
+}
+
+.carica {
+  border-radius: 3px;
+  padding: 4%;
+  margin-bottom: 30px;
+}
+
+.mono1 {
+  background-color: orange;
+  width: 120%;
+}
+
+.mono2 {
+  background-color: rgb(120,230,80);
+  width: 180%;
+}
+
+.mono3 {
+  background-color: rgb(175,0,50);
+  width: 55px;
+}
